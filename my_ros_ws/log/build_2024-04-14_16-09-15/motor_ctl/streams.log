@@ -1,0 +1,25 @@
+[2.567s] Invoking command in '/home/group1/my_ros_ws/src/motor_ctl': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data
+[3.575s] running egg_info
+[3.578s] writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO
+[3.579s] writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt
+[3.580s] writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt
+[3.581s] writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt
+[3.581s] writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt
+[3.590s] reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+[3.593s] writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+[3.594s] running build
+[3.594s] running build_py
+[3.595s] copying motor_ctl/publisher.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+[3.596s] running install
+[3.597s] running install_lib
+[3.601s] copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/publisher.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+[3.603s] byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/publisher.py to publisher.cpython-310.pyc
+[3.608s] running install_data
+[3.609s] running install_egg_info
+[3.615s] removing '/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info' (and everything under it)
+[3.616s] Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info
+[3.622s] running install_scripts
+[3.700s] Installing publisher script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl
+[3.701s] Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl
+[3.702s] writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'
+[3.814s] Invoked command in '/home/group1/my_ros_ws/src/motor_ctl' returned '0': PYTHONPATH=/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_ctl build --build-base /home/group1/my_ros_ws/build/motor_ctl/build install --record /home/group1/my_ros_ws/build/motor_ctl/install.log --single-version-externally-managed install_data

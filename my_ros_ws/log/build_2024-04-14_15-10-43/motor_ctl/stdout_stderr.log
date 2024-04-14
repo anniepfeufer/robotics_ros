@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt
+writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt
+writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt
+reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'
+running build
+running build_py
+copying motor_ctl/publisher.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+copying motor_ctl/subscriber.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl
+running install
+running install_lib
+copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/publisher.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/subscriber.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl
+byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+copying package.xml -> /home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl
+running install_egg_info
+removing '/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl
+Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl
+writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'

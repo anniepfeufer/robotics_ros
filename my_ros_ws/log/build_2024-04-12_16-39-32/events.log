@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001509] (motor_ctl) JobQueued: {'identifier': 'motor_ctl', 'dependencies': OrderedDict()}
+[0.002090] (motor_ctl) JobStarted: {'identifier': 'motor_ctl'}
+[0.099116] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.300503] (-) TimerEvent: {}
+[0.401191] (-) TimerEvent: {}
+[0.501820] (-) TimerEvent: {}
+[0.602400] (-) TimerEvent: {}
+[0.702993] (-) TimerEvent: {}
+[0.803759] (-) TimerEvent: {}
+[0.904471] (-) TimerEvent: {}
+[1.005064] (-) TimerEvent: {}
+[1.105756] (-) TimerEvent: {}
+[1.206531] (-) TimerEvent: {}
+[1.307205] (-) TimerEvent: {}
+[1.407949] (-) TimerEvent: {}
+[1.508617] (-) TimerEvent: {}
+[1.609240] (-) TimerEvent: {}
+[1.709817] (-) TimerEvent: {}
+[1.810379] (-) TimerEvent: {}
+[1.910972] (-) TimerEvent: {}
+[2.011574] (-) TimerEvent: {}
+[2.112223] (-) TimerEvent: {}
+[2.212844] (-) TimerEvent: {}
+[2.313453] (-) TimerEvent: {}
+[2.414065] (-) TimerEvent: {}
+[2.514814] (-) TimerEvent: {}
+[2.594142] (motor_ctl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_ctl', 'build', '--build-base', '/home/group1/my_ros_ws/build/motor_ctl/build', 'install', '--record', '/home/group1/my_ros_ws/build/motor_ctl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/group1/my_ros_ws/src/motor_ctl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'group1', 'SSH_CLIENT': '10.143.246.166 62853 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/group1', 'OLDPWD': '/home/group1/my_ros_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'ROS_DISTRO': 'iron', 'LOGNAME': 'group1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/group1/my_ros_ws/build/motor_ctl', 'SSH_CONNECTION': '10.143.246.166 62853 10.143.173.24 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/group1/my_ros_ws/build/motor_ctl/prefix_override:/home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[2.615041] (-) TimerEvent: {}
+[2.715885] (-) TimerEvent: {}
+[2.816834] (-) TimerEvent: {}
+[2.917492] (-) TimerEvent: {}
+[3.018081] (-) TimerEvent: {}
+[3.118685] (-) TimerEvent: {}
+[3.219256] (-) TimerEvent: {}
+[3.319870] (-) TimerEvent: {}
+[3.420481] (-) TimerEvent: {}
+[3.521140] (-) TimerEvent: {}
+[3.599658] (motor_ctl) StdoutLine: {'line': b'running egg_info\n'}
+[3.602022] (motor_ctl) StdoutLine: {'line': b'creating ../../build/motor_ctl/motor_ctl.egg-info\n'}
+[3.602790] (motor_ctl) StdoutLine: {'line': b'writing ../../build/motor_ctl/motor_ctl.egg-info/PKG-INFO\n'}
+[3.603823] (motor_ctl) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_ctl/motor_ctl.egg-info/dependency_links.txt\n'}
+[3.604427] (motor_ctl) StdoutLine: {'line': b'writing entry points to ../../build/motor_ctl/motor_ctl.egg-info/entry_points.txt\n'}
+[3.605035] (motor_ctl) StdoutLine: {'line': b'writing requirements to ../../build/motor_ctl/motor_ctl.egg-info/requires.txt\n'}
+[3.605508] (motor_ctl) StdoutLine: {'line': b'writing top-level names to ../../build/motor_ctl/motor_ctl.egg-info/top_level.txt\n'}
+[3.606286] (motor_ctl) StdoutLine: {'line': b"writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[3.613712] (motor_ctl) StdoutLine: {'line': b"reading manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[3.616682] (motor_ctl) StdoutLine: {'line': b"writing manifest file '../../build/motor_ctl/motor_ctl.egg-info/SOURCES.txt'\n"}
+[3.617306] (motor_ctl) StdoutLine: {'line': b'running build\n'}
+[3.617682] (motor_ctl) StdoutLine: {'line': b'running build_py\n'}
+[3.618103] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/motor_ctl/build\n'}
+[3.618672] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/motor_ctl/build/lib\n'}
+[3.619101] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl\n'}
+[3.619419] (motor_ctl) StdoutLine: {'line': b'copying motor_ctl/__init__.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl\n'}
+[3.619879] (motor_ctl) StdoutLine: {'line': b'copying motor_ctl/subscriber.py -> /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl\n'}
+[3.620544] (motor_ctl) StdoutLine: {'line': b'running install\n'}
+[3.621241] (-) TimerEvent: {}
+[3.621806] (motor_ctl) StdoutLine: {'line': b'running install_lib\n'}
+[3.624858] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl\n'}
+[3.625416] (motor_ctl) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/__init__.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl\n'}
+[3.625963] (motor_ctl) StdoutLine: {'line': b'copying /home/group1/my_ros_ws/build/motor_ctl/build/lib/motor_ctl/subscriber.py -> /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl\n'}
+[3.628289] (motor_ctl) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/__init__.py to __init__.cpython-310.pyc\n'}
+[3.629641] (motor_ctl) StdoutLine: {'line': b'byte-compiling /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl/subscriber.py to subscriber.cpython-310.pyc\n'}
+[3.630756] (motor_ctl) StdoutLine: {'line': b'running install_data\n'}
+[3.631249] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index\n'}
+[3.631789] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index\n'}
+[3.632270] (motor_ctl) StdoutLine: {'line': b'creating /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index/packages\n'}
+[3.632614] (motor_ctl) StdoutLine: {'line': b'copying resource/motor_ctl -> /home/group1/my_ros_ws/install/motor_ctl/share/ament_index/resource_index/packages\n'}
+[3.633029] (motor_ctl) StdoutLine: {'line': b'copying package.xml -> /home/group1/my_ros_ws/install/motor_ctl/share/motor_ctl\n'}
+[3.633448] (motor_ctl) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.639862] (motor_ctl) StdoutLine: {'line': b'Copying ../../build/motor_ctl/motor_ctl.egg-info to /home/group1/my_ros_ws/install/motor_ctl/lib/python3.10/site-packages/motor_ctl-0.0.0-py3.10.egg-info\n'}
+[3.644843] (motor_ctl) StdoutLine: {'line': b'running install_scripts\n'}
+[3.721241] (motor_ctl) StdoutLine: {'line': b'Installing subscriber script to /home/group1/my_ros_ws/install/motor_ctl/lib/motor_ctl\n'}
+[3.721726] (-) TimerEvent: {}
+[3.722733] (motor_ctl) StdoutLine: {'line': b"writing list of installed files to '/home/group1/my_ros_ws/build/motor_ctl/install.log'\n"}
+[3.822015] (-) TimerEvent: {}
+[3.833184] (motor_ctl) CommandEnded: {'returncode': 0}
+[3.874867] (motor_ctl) JobEnded: {'identifier': 'motor_ctl', 'rc': 0}
+[3.877321] (-) EventReactorShutdown: {}
